@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân - Nguyễn Thị Diệu Linh</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffe4ec, #fff5f7);
+            color: #444;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #e88ba8;
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #d65f85;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #a8325b;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 18px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #d65f85;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #f7c5d5;
+            padding-bottom: 8px;
+        }
+
+        .avatar {
+            width: 130px;
+            height: 130px;
+            background: #f8c8d8;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 55px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile h2 {
+            border: none;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .hobby {
+            color: #d65f85;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            background: #e88ba8;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 25px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .container {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>WELCOME TO MY WEBSITE</h1>
+        <p>Chào mừng bạn đến với trang web cá nhân của tôi!</p>
+    </header>
+
+    <nav>
+        <a href="#about">Giới thiệu</a>
+        <a href="#information">Thông tin</a>
+        <a href="#hobbies">Sở thích</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+
+    <div class="container">
+
+        <section class="card profile" id="about">
+            <div class="avatar">🌸</div>
+            <h2>Nguyễn Thị Diệu Linh</h2>
+            <p>
+                Xin chào! Mình là Nguyễn Thị Diệu Linh.
+                Rất vui khi bạn ghé thăm trang web cá nhân của mình.
+            </p>
+        </section>
+
+        <section class="card" id="information">
+            <h2>🌷 Thông tin cá nhân</h2>
+            <p><strong>Họ và tên:</strong> Nguyễn Thị Diệu Linh</p>
+            <p><strong>Năm sinh:</strong> 2004</p>
+            <p><strong>Quê quán:</strong> Hà Nội, Việt Nam</p>
+        </section>
+
+        <section class="card" id="hobbies">
+            <h2>💗 Sở thích của tôi</h2>
+            <ul>
+                <li>📚 <span class="hobby">Đọc sách:</span>
+                    Khám phá những kiến thức và câu chuyện mới.</li>
+                <li>🎬 <span class="hobby">Xem phim:</span>
+                    Thư giãn và tận hưởng những bộ phim yêu thích.</li>
+                <li>🏊 <span class="hobby">Bơi lội:</span>
+                    Rèn luyện sức khỏe và thư giãn.</li>
+            </ul>
+        </section>
+
+        <section class="card" id="contact">
+            <h2>🌼 Đôi lời về bản thân</h2>
+            <p>
+                Mình là một người yêu thích khám phá những điều mới mẻ,
+                luôn mong muốn học hỏi và hoàn thiện bản thân mỗi ngày.
+                Mình hy vọng sẽ có thêm nhiều trải nghiệm thú vị
+                và gặp gỡ được những người bạn mới.
+            </p>
+            <p style="margin-top: 15px; text-align: center;">
+                <strong>Cảm ơn bạn đã ghé thăm trang web của mình! ❤️</strong>
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 - Nguyễn Thị Diệu Linh</p>
+        <p>Thank you for visiting my website!</p>
+    </footer>
+
+</body>
+</html>
